@@ -63,7 +63,22 @@ body {
   margin-right: 10px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
+.controls__colors .controls__color:hover {
+  transform: scale(1.3);
+}
 
 .controls .controls__range {
   margin-bottom: 30px;
+}
+
+.controls__range label,
+input {
+  cursor: pointer;
+}
+.controls__range label {
+  font-size: 20px;
+  font-weight: 700;
+}
+#eraser:hover {
+  background-color: black;
 }
